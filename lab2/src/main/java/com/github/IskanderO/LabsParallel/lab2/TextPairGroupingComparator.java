@@ -1,6 +1,5 @@
 package com.github.IskanderO.LabsParallel.lab2;
 
-import org.apache.hadoop.io.RawComparator;
 import org.apache.hadoop.io.WritableComparator;
 
 public class TextPairGroupingComparator extends WritableComparator {
