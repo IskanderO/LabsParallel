@@ -29,7 +29,8 @@ public class TextPair implements WritableComparable<TextPair> {
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-
+        this.destAirportId = dataInput.readInt();
+        this.fileNumber = dataInput.readInt();
     }
 
     @Override
