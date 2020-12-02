@@ -2,11 +2,7 @@ package com.github.IskanderO.LabsParallel.lab2;
 
 import org.apache.hadoop.io.RawComparator;
 
-public class TextPairGroupingComparator implements RawComparator {
-    @Override
-    public int compare(byte[] bytes, int i, int i1, byte[] bytes1, int i2, int i3) {
-        return 0;
-    }
+public class TextPairGroupingComparator extends WritableComparator {
 
     @Override
     public int compare(Object o1, Object o2) {
