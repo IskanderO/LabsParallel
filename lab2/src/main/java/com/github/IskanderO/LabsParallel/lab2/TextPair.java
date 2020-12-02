@@ -8,7 +8,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class TextPair implements WritableComparable<TextPair> {
-    
+
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
@@ -18,5 +18,10 @@ public class TextPair implements WritableComparable<TextPair> {
     @Override
     public void readFields(DataInput dataInput) throws IOException {
 
+    }
+
+    @Override
+    public int compareTo(TextPair o) {
+        return 0;
     }
 }
