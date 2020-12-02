@@ -14,16 +14,8 @@ public class Main {
             e.printStackTrace();
         }
         String row = "";
-        while (true) {
-            try {
-                if (!((row = csvReader.readLine()) != null))
-                    break;
-                String[] data = row.split(",");
-                // do something with the data
-                csvReader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+
+            
         }
 
     }
