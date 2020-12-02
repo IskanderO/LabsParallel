@@ -8,7 +8,18 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class TextPair implements WritableComparable<TextPair> {
+    
+    private Integer destAirportId;
 
+    private Integer fileNumber;
+
+    public TextPair() {
+    }
+
+    public TextPair(Integer destAirportId, Integer fileNumber ) {
+        this.destAirportId = destAirportId;
+        this.fileNumber = fileNumber;
+    }
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
