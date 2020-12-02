@@ -3,7 +3,7 @@ package com.github.IskanderO.LabsParallel.lab2;
 import org.apache.hadoop.mapreduce.Partitioner;
 import org.apache.hadoop.io.Text;
 
-public class TextPairPartitioner<K, V> extends Partitioner<K, V> {
+public class TextPairPartitioner extends Partitioner<TextPair, Text> {
 
     @Override
     public int getPartition(TextPair key, Text value, int numReduceTasks) {
