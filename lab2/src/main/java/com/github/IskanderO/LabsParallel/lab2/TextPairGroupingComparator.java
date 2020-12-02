@@ -9,5 +9,5 @@ public class TextPairGroupingComparator extends WritableComparator {
         TextPair textPair2 = (TextPair)obj2;
         return Integer.compare(textPair1.getDestAirportId(), textPair2.getDestAirportId());
     }
-    
+
 }

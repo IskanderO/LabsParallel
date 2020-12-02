@@ -1,2 +1,4 @@
-package com.github.IskanderO.LabsParallel.lab2;public class JoinReducer {
+package com.github.IskanderO.LabsParallel.lab2;
+
+public class JoinReducer {
 }
