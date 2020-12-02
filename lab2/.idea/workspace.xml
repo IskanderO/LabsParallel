@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/csvParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/csvParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/FlightsJoinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/FlightsJoinMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
