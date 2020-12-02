@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 public class ReduceSideJoinRunner {
     public static void main(String[] args) throws Exception {
-        if (args.length != 2) {
+        if (args.length != 3) {
             System.err.println("Usage: ReduceSideJoinRunner <input path A> <input path B> <output path>");
             System.exit(-1);
         }
