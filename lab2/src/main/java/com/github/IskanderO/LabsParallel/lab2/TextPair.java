@@ -22,6 +22,14 @@ public class TextPair implements WritableComparable<TextPair> {
         this.fileNumber = fileNumber;
     }
 
+    public Integer getDestAirportId() {
+        return destAirportId;
+    }
+
+    public Integer getFileNumber() {
+        return fileNumber;
+    }
+
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(destAirportId);
