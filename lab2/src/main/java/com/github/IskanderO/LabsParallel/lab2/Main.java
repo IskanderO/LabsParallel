@@ -15,8 +15,16 @@ public class Main {
         }
         String row = "";
 
-            
+        try {
+            while ((row = csvReader.readLine()) != null) {
+                System.out.println(row);
+                //String[] data = row.split(",");
+            }
+            csvReader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
 
     }
 }
