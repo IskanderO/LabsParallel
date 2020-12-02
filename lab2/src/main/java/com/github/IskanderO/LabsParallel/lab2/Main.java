@@ -18,6 +18,7 @@ public class Main {
         String row = "";
 
         try {
+            int counter = 0;
             while ((row = csvReader.readLine()) != null) {
                 counter++;
                 if (counter > 1) {
