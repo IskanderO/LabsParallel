@@ -1,2 +1,4 @@
-package com.github.IskanderO.LabsParallel.lab2;public class SystemsJoinMapper {
+package com.github.IskanderO.LabsParallel.lab2;
+
+public class SystemsJoinMapper {
 }
