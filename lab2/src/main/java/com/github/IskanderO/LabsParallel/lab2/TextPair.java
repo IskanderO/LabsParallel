@@ -6,6 +6,7 @@ import javax.xml.soap.Text;
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
+import java.util.Objects;
 
 public class TextPair implements WritableComparable<TextPair> {
 
@@ -40,6 +41,20 @@ public class TextPair implements WritableComparable<TextPair> {
     public void readFields(DataInput dataInput) throws IOException {
         this.destAirportId = dataInput.readInt();
         this.fileNumber = dataInput.readInt();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TextPair textPair = (TextPair) o;
+        return destAirportId.equals(textPair.destAirportId) &&
+                fileNumber.equals(textPair.fileNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(destAirportId, fileNumber);
     }
 
     @Override
