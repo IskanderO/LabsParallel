@@ -13,5 +13,5 @@ public class TextPairGroupingComparator implements RawComparator {
         return 0;
     }
 
-    
+
 }
