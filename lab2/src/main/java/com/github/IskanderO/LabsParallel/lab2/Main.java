@@ -6,7 +6,12 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        BufferedReader csvReader = new BufferedReader(new FileReader("technicalTask/flights.csv");
+        BufferedReader csvReader = null;
+        try {
+            csvReader = new BufferedReader(new FileReader("technicalTask/airports.csv"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         String row = "";
         while (true) {
             try {
