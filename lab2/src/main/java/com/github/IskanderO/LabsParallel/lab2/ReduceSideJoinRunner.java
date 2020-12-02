@@ -22,7 +22,7 @@ public class ReduceSideJoinRunner {
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(TextPairPartitioner.class);
-        jjob.setGroupingComparatorClass(TextPairGroupingComparator.class);
+        job.setGroupingComparatorClass(TextPairGroupingComparator.class);
         job.setReducerClass(JoinReducer.class);
         job.setMapOutputKeyClass(TextPair.class);
 
