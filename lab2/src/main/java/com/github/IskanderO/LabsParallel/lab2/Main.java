@@ -18,8 +18,9 @@ public class Main {
 
         try {
             while ((row = csvReader.readLine()) != null) {
-                System.out.println(row);
-                //String[] data = row.split(",");
+                // System.out.println(row);
+                String[] data = row.split(",");
+                System.out.println(Arrays.toString(data));
             }
             csvReader.close();
         } catch (IOException e) {
