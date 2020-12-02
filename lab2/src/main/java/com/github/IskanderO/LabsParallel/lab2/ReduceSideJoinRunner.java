@@ -18,7 +18,7 @@ public class ReduceSideJoinRunner {
         job.setJarByClass(ReduceSideJoinRunner.class);
         job.setJobName("ReduceSideJoinRunner job");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsJoinMapper.class); // flights
-        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, SystemsJoinMapper.class); // airports
+        MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportsJoinMapper.class); // airports
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(TextPair.FirstPartitioner.class);
