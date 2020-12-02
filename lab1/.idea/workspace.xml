@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../File" beforeDir="false" afterPath="$PROJECT_DIR$/../File" afterDir="false" />
-    </list>
+    <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +38,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1kf31WPbDXkIlaRLWF1VyNHMLfi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -97,31 +84,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1248" height="131" key="GridCell.Tab.0.bottom" timestamp="1606082363561">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="131" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1606082363561" />
-    <state width="1248" height="131" key="GridCell.Tab.0.center" timestamp="1606082363559">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="131" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1606082363559" />
-    <state width="1248" height="131" key="GridCell.Tab.0.left" timestamp="1606082363558">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="131" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1606082363558" />
-    <state width="1248" height="131" key="GridCell.Tab.0.right" timestamp="1606082363560">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state width="1248" height="131" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1606082363560" />
-    <state x="523" y="27" width="381" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606079630010">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="523" y="27" width="381" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1294.741@72.27.1294.741" timestamp="1606079630010" />
-    <state x="72" y="101" width="1284" height="599" key="new project wizard" timestamp="1606077935928">
-      <screen x="72" y="27" width="1294" height="741" />
-    </state>
-    <state x="72" y="101" width="1284" height="599" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1606077935928" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
