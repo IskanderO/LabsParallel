@@ -42,7 +42,7 @@ public class TextPair implements WritableComparable<TextPair> {
         this.destAirportId = dataInput.readInt();
         this.fileNumber = dataInput.readInt();
     }
-
+/*
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -55,7 +55,7 @@ public class TextPair implements WritableComparable<TextPair> {
     @Override
     public int hashCode() {
         return Objects.hash(destAirportId, fileNumber);
-    }
+    }*/
 
     @Override
     public int compareTo(TextPair o) {
