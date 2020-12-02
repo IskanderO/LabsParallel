@@ -22,5 +22,6 @@ public class FlightsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text
             String delay = columns[ARR_DELAY_NEW_COLUMN_NUMBER];
 
             context.write(new TextPair(destAirportId, 1), new Text(delay)); // key, value        }
+        }
     }
 }
