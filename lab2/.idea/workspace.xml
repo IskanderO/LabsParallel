@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/AirportsJoinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/AirportsJoinMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/TextPairPartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/TextPairPartitioner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
