@@ -1,2 +1,4 @@
-package com.github.IskanderO.LabsParallel.lab2;public class ReduceSideJoin {
+package com.github.IskanderO.LabsParallel.lab2;
+
+public class ReduceSideJoin {
 }
