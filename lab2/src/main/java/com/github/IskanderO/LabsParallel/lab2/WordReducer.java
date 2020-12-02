@@ -1,4 +1,4 @@
-package com.github.IskanderO.LabsParallel.lab1;
+package com.github.IskanderO.LabsParallel.lab2;
 
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.io.IntWritable;

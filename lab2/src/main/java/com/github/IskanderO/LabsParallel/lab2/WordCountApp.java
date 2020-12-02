@@ -1,4 +1,4 @@
-package com.github.IskanderO.LabsParallel.lab1;
+package com.github.IskanderO.LabsParallel.lab2;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
