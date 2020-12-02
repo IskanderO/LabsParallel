@@ -62,6 +62,7 @@ public class TextPair implements WritableComparable<TextPair> {
         int cmp = this.destAirportId.compareTo(o.getDestAirportId());
         if(cmp != 0)
             return cmp;
-        return this.fileNumber.compareTo(o.getFileNumber());    }
+        return this.fileNumber.compareTo(o.getFileNumber());
+    }
 
 }
