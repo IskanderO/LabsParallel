@@ -14,6 +14,7 @@ public class TextPair implements WritableComparable<TextPair> {
     private Integer fileNumber;
 
     public TextPair() {
+        super();
     }
 
     public TextPair(Integer destAirportId, Integer fileNumber ) {
@@ -37,5 +38,5 @@ public class TextPair implements WritableComparable<TextPair> {
     public int compareTo(TextPair o) {
         return 0;
     }
-    
+
 }
