@@ -14,12 +14,12 @@ public class ReduceSideJoinRunner {
             System.err.println("Usage: ReduceSideJoinRunner <input path A> <input path B> <output path>");
             System.exit(-1);
         }
-        Job job = Job.getInstance();
+        /*Job job = Job.getInstance();
         job.setJarByClass(ReduceSideJoinRunner.class);
         job.setJobName("ReduceSideJoinRunner job");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightsJoinMapper.class); // flights
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportsJoinMapper.class); // airports
-
+*/
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(TextPairPartitioner.class);
         jjob.setGroupingComparatorClass(TextPairGroupingComparator.class);
