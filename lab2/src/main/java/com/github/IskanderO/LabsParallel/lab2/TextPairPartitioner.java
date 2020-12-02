@@ -5,8 +5,8 @@ import org.apache.hadoop.mapreduce.Partitioner;
 public class TextPairPartitioner<K, V> extends Partitioner<K, V> {
 
     @Override
-    public int getPartition(K k, V v, int i) {
-        return 0;
+    public int getPartition(TextPair key, Text value, int numReduceTasks) {
+        return (key.hashCode() & Integer.MAX_VALUE) % numReduceTasks;
     }
 
 }
