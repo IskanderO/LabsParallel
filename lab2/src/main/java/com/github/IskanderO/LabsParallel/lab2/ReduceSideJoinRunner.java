@@ -17,7 +17,7 @@ public class ReduceSideJoinRunner {
         }
         Job job = Job.getInstance();
         job.setJarByClass(ReduceSideJoinRunner.class);
-        job.setJobName("ReduceSideJoinRunner");
+        ob.setJobName("ReduceSideJoinRunner job");
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, CallsJoinMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, SystemsJoinMapper.class);
 
