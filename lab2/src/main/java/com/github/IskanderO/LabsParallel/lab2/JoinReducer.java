@@ -19,6 +19,10 @@ class Statistics {
 
     private double maxDelay = 0.0;
 
+    private double sumOfDelays = 0.0;
+
+    
+
 
     public Statistics() {
     }
