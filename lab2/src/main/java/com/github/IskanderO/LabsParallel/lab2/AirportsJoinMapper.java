@@ -23,7 +23,15 @@ public class AirportsJoinMapper extends Mapper<LongWritable, Text, TextPair, Tex
             String[] columns = value.toString().split(",");
 
             Integer destAirportId = Integer.parseInt(columns[DEST_AIRPORT_ID_COLUMN_NUMBER].replaceAll("\"", ""));
+
+            StringBuilder sb = new StringBuilder();
+            for (int i = 1; i < columns.length; i++) {
+                sb.append(columns[i]);
+            }
+
             String airportDescription = columns[AIRPORT_DESCRIPTION_COLUMN_NUMBER];
+
+
 
             context.write(new TextPair(destAirportId, FILE_NUMBER), new Text(airportDescription));  // key, value
         }
