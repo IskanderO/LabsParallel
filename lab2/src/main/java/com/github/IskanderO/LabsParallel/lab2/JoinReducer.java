@@ -13,4 +13,6 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
     }
 }
 
-class Statistics
+class Statistics {
+    
+}
