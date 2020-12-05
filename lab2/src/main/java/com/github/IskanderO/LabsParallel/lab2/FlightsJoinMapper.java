@@ -17,7 +17,7 @@ public class FlightsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        if (!key.equals(new LongWritable(0))) { // Пропускаем первую строку csv файла (наименования столбцов)
+        if (!key.equals(new LongWritable(0))) { // Пропускаем первую строку csv файла
             String[] columns = value.toString().split(",");
 
             Integer destAirportId = Integer.parseInt(columns[DEST_AIRPORT_ID_COLUMN_NUMBER]);
