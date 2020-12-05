@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class AirportsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text> {
 
-    
+
     private static final int DEST_AIRPORT_ID_COLUMN_NUMBER = 0;
 
     private static final int AIRPORT_DESCRIPTION_COLUMN_NUMBER = 1;
