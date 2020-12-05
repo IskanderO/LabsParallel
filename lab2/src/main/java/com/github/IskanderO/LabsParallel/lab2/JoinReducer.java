@@ -59,8 +59,8 @@ class Statistics {
     }
 
 
-    private  void calculateStatistics() {
-        
+    private  void calculateStatistics(Iterable<Text> values) {
+
     }
 
 }
