@@ -70,6 +70,8 @@ class Statistics {
             if (delay > maxDelay) {
                 maxDelay = delay;
             }
+            sumOfDelays += delay;
+
         }
     }
 
