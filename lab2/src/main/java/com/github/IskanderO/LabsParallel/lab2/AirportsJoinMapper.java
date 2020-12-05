@@ -29,10 +29,8 @@ public class AirportsJoinMapper extends Mapper<LongWritable, Text, TextPair, Tex
                 sb.append(columns[i]);
             }
 
-            String airportDescription = columns[AIRPORT_DESCRIPTION_COLUMN_NUMBER];
-
-
-
+            String airportDescription = sb.toString();
+            
             context.write(new TextPair(destAirportId, FILE_NUMBER), new Text(airportDescription));  // key, value
         }
     }
