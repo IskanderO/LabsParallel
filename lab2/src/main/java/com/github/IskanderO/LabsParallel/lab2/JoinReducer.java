@@ -12,3 +12,5 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
         super.reduce(key, values, context);
     }
 }
+
+class Statistics
