@@ -15,6 +15,10 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
 
 class Statistics {
 
+    private double minDelay = Double.MAX_VALUE;
+
+    
+
     public Statistics() {
     }
 }
