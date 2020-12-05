@@ -64,7 +64,13 @@ class Statistics {
 
         while (iter.hasNext()) {
             double delay = Double.parseDouble(iter.next().toString());
+            if () {
 
+            }
+
+            if () {
+                
+            }
         }
     }
 
