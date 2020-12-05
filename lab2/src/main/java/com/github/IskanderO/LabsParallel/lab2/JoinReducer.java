@@ -17,6 +17,7 @@ class Statistics {
 
     private double minDelay = Double.MAX_VALUE;
 
+    private double maxDelay = 0.0;
 
 
     public Statistics() {
