@@ -25,6 +25,9 @@ class Statistics {
 
     private double averageDelay = 0.0;
 
+    public Statistics() {
+    }
+
     public double getMinDelay() {
         return minDelay;
     }
@@ -45,6 +48,5 @@ class Statistics {
         return averageDelay;
     }
 
-    public Statistics() {
-    }
+
 }
