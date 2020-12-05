@@ -72,8 +72,8 @@ class Statistics {
             }
             sumOfDelays += delay;
             countOfDelays++;
-
         }
+        averageDelay = sumOfDelays / (double)countOfDelays;
     }
 
 }
