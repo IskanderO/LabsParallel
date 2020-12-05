@@ -9,12 +9,12 @@ import java.io.IOException;
 
 public class AirportsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text> {
 
-    //т.к. отсчет с нуля, то индексы на единицу меньше, чем в самом csv файле
-    private static final int DEST_AIRPORT_ID_COLUMN_NUMBER = 0; // DEST_AIRPORT_ID — Идентификатор аэропорта
+    
+    private static final int DEST_AIRPORT_ID_COLUMN_NUMBER = 0;
 
-    private static final int AIRPORT_DESCRIPTION_COLUMN_NUMBER = 1; // DEST_AIRPORT_ID — Идентификатор аэропорта
+    private static final int AIRPORT_DESCRIPTION_COLUMN_NUMBER = 1;
 
-    private static final int FILE_NUMBER = 0; // номер входного файла (для этапа Reduce)
+    private static final int FILE_NUMBER = 0;
 
 
     @Override
