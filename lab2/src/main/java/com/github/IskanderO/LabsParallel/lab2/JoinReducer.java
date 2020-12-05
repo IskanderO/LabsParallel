@@ -14,8 +14,8 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
         String airportDescription = iter.next().toString();
         Statistics statistics = new Statistics(values);
         if (statistics.getCountOfDelays() > 0) {
-            String result = "Airport name = " + airportDescription + "; Min delay = " + statisticsCalculator.getMinDelay() +
-                    "; Max delay = " + statisticsCalculator.getMaxDelay() + "; Average delay =  " + statisticsCalculator.getAverageDelay() + ";";
+            String result = "Airport name = " + airportDescription + "; Min delay = " + statistics.getMinDelay() +
+                    "; Max delay = " + statistics.getMaxDelay() + "; Average delay =  " + statistics.getAverageDelay() + ";";
         }
 
 
