@@ -14,7 +14,7 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
         String airportDescription = iter.next().toString();
         Statistics statistics = new Statistics(values);
         if (statistics.getCountOfDelays() > 0) {
-
+            String result = 
         }
 
 
