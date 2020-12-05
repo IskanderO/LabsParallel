@@ -62,8 +62,8 @@ class Statistics {
     private  void calculateStatistics(Iterable<Text> values) {
         Iterator<Text> iter = values.iterator();
 
-        while () {
-            
+        while (iter.hasNext()) {
+
         }
     }
 
