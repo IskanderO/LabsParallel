@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/technicalTask/airports.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/technicalTask/flights.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="48002969-1315-4e23-9f16-6748f8f29ece" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,16 +86,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/IskanderO/LabsParallel/lab2/ReduceSideJoinRunner.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
