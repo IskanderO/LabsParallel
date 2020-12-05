@@ -1,4 +1,8 @@
 com/github/IskanderO/LabsParallel/lab2/TextPairPartitioner.class
+com/github/IskanderO/LabsParallel/lab2/TextPairGroupingComparator.class
+com/github/IskanderO/LabsParallel/lab2/AirportsJoinMapper.class
 com/github/IskanderO/LabsParallel/lab2/TextPair.class
+com/github/IskanderO/LabsParallel/lab2/JoinReducer.class
 com/github/IskanderO/LabsParallel/lab2/FlightsJoinMapper.class
 com/github/IskanderO/LabsParallel/lab2/ReduceSideJoinRunner.class
+com/github/IskanderO/LabsParallel/lab2/Statistics.class
