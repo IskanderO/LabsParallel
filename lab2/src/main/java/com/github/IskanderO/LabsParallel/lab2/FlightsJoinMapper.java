@@ -13,6 +13,8 @@ public class FlightsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text
 
     private static final int ARR_DELAY_NEW_COLUMN_NUMBER = 18;
 
+    private static final Integer FILE_NUMBER = 1;
+
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         if (!key.equals(new LongWritable(0))) { // Пропускаем первую строку csv файла (наименования столбцов)
