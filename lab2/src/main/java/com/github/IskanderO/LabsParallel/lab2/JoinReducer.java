@@ -63,7 +63,8 @@ class Statistics {
         Iterator<Text> iter = values.iterator();
 
         while (iter.hasNext()) {
-
+            double delay = Double.parseDouble(iter.next().toString());
+            
         }
     }
 
