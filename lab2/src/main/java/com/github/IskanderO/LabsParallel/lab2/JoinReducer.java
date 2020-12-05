@@ -34,7 +34,7 @@ class Statistics {
 
     private double averageDelay = 0.0;
 
-    public Statistics() {
+    public Statistics(Iterable<Text> values) {
     }
 
     public double getMinDelay() {
