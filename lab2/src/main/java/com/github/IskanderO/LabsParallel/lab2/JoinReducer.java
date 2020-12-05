@@ -25,7 +25,7 @@ class Statistics {
 
     private double averageDelay = 0.0;
 
-    
+
 
 
     public Statistics() {
