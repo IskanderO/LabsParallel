@@ -13,7 +13,7 @@ public class JoinReducer extends Reducer<TextPair, Text, Text, Text> {
         Iterator<Text> iter = values.iterator();
         String airportDescription = iter.next().toString();
         Statistics statistics = new Statistics(values);
-        if (statistics.getCountOfDelays()) {
+        if (statistics.getCountOfDelays() > 0) {
 
         }
 
