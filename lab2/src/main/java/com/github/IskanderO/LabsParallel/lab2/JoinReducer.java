@@ -21,6 +21,8 @@ class Statistics {
 
     private double sumOfDelays = 0.0;
 
+    private int countOfDelays = 0;
+
     
 
 
