@@ -71,6 +71,7 @@ class Statistics {
                 maxDelay = delay;
             }
             sumOfDelays += delay;
+            countOfDelays++;
 
         }
     }
