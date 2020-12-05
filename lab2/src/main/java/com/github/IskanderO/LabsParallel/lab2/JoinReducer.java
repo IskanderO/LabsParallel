@@ -23,6 +23,8 @@ class Statistics {
 
     private int countOfDelays = 0;
 
+    private double averageDelay = 0.0;
+
     
 
 
