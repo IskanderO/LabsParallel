@@ -45,7 +45,7 @@ public class Main {
                 }
         );
 
-        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsStatisticRDD =flightsRDD.reduceByKey()
+        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsStatisticRDD =flightsRDD.reduceByKey(Flights::update);
 
 
     }
