@@ -36,7 +36,9 @@ public class Main {
         JavaPairRDD<Tuple2<Long, Long>, Flights> flightsRDD = flightsDataRDD.mapToPair(
                 s -> {
                     String[] columns = s.replaceAll(" ","").split(",");
-                    Long originAirportId = Long.parseLong(columns[11]);
+                    Long originAirportId = Long.parseLong(columns[11].replaceAll("\"",""));
+
+                    return 
                 }
         );
 
