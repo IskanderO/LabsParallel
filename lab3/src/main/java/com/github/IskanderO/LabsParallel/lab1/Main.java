@@ -39,7 +39,7 @@ public class Main {
                     Long originAirportId = Long.parseLong(columns[11].replaceAll("\"",""));
                     Long destAirportId =  Long.parseLong(columns[14].replaceAll("\"",""));
 
-                    return new Tuple2<>(new Tuple2<Long, Long>(originAirportId, destAirportId), new Flights())
+                    return new Tuple2<>(new Tuple2<Long, Long>(originAirportId, destAirportId), new Flights());
                 }
         );
 
