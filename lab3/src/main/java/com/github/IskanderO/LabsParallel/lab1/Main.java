@@ -24,7 +24,10 @@ public class Main {
                 s -> {
                     String[] columns = s.split(",");
                     Long airportId = Long.parseLong(columns[0].replaceAll("\"", ""));
-                    return new Tuple2<>();
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 1; i < columns.length; i++)
+                        sb.append(columns[i]);
+                    return new Tuple2<>(airportId, );
                 }
         )
     }
