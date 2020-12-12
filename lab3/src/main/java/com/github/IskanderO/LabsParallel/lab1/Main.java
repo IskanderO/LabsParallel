@@ -22,8 +22,9 @@ public class Main {
 
         JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter(s -> !s.startsWith("Code")).mapToPair(
                 s -> {
-
-                    return new Tuple2<>(new Tuple2<Long, Long>());
+                    String[] columns = s.split(",");
+                    Long airportId = Long.parseLong(columns[].replaceAll("\"", ""));
+                    return new Tuple2<>();
                 }
         )
     }
