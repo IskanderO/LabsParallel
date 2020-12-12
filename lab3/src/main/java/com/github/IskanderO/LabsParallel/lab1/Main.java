@@ -19,6 +19,8 @@ public class Main {
         JavaRDD<String> airportsDescriptionDataRDD = sc.textFile(FILE_NAME_1);
         JavaRDD<String> flightsDataRDD = sc.textFile(FILE_NAME_2);
 
-        JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter()
+        JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter(s -> !s.startsWith("Code")).mapToPair(
+                
+        )
     }
 }
