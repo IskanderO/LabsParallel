@@ -23,11 +23,13 @@ public class Main {
         JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter(s -> !s.startsWith("Code")).mapToPair(
                 s -> {
                     String[] columns = s.split(",");
+                    String resultStr = "";
                     Long airportId = Long.parseLong(columns[0].replaceAll("\"", ""));
                     StringBuilder sb = new StringBuilder();
                     for (int i = 1; i < columns.length; i++)
                         sb.append(columns[i]);
-                    return new Tuple2<>(airportId, );
+                    resultStr = sb.toString();
+                    return new Tuple2<>(airportId, resultStr);
                 }
         )
     }
