@@ -7,4 +7,8 @@ public class Flights implements Serializable {
     public Flights(String delay, String cancelled) {
 
     }
+
+    public Flights update(Flights newFlights) {
+        
+    }
 }
