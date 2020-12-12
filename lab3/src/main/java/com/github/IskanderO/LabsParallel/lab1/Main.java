@@ -38,7 +38,7 @@ public class Main {
                     String[] columns = s.replaceAll(" ","").split(",");
                     Long originAirportId = Long.parseLong(columns[11].replaceAll("\"",""));
 
-                    return 
+                    return new Tuple2<>(new Tuple2<Long, Long>(originAirportId,))
                 }
         );
 
