@@ -39,6 +39,8 @@ public class Main {
                     Long originAirportId = Long.parseLong(columns[11].replaceAll("\"",""));
                     Long destAirportId =  Long.parseLong(columns[14].replaceAll("\"",""));
 
+                    String delay = columns[];
+                    String cancelled = columns[];
                     return new Tuple2<>(new Tuple2<Long, Long>(originAirportId, destAirportId), new Flights());
                 }
         );
