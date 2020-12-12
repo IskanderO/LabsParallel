@@ -1,6 +1,7 @@
 package com.github.IskanderO.LabsParallel.lab1;
 
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
@@ -18,6 +19,6 @@ public class Main {
         JavaRDD<String> airportsDescriptionDataRDD = sc.textFile(FILE_NAME_1);
         JavaRDD<String> flightsDataRDD = sc.textFile(FILE_NAME_2);
 
-        
+        JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter()
     }
 }
