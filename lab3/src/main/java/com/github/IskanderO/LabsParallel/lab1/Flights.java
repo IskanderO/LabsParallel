@@ -5,6 +5,6 @@ import java.io.Serializable;
 public class Flights implements Serializable {
 
     public Flights() {
-        
+
     }
 }
