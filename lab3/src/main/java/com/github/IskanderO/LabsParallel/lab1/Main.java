@@ -33,7 +33,9 @@ public class Main {
                 }
         );
 
-        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsRDD = flightsDataRDD.filter()
+        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsRDD = flightsDataRDD.mapToPair(
+                
+        )
 
 
     }
