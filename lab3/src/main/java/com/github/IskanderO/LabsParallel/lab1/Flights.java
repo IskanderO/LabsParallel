@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Flights implements Serializable {
 
-    public Flights() {
+    public Flights(String delay, String cancelled) {
 
     }
 }
