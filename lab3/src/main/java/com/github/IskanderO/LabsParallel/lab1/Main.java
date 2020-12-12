@@ -41,7 +41,7 @@ public class Main {
 
                     String delay = columns[18];
                     String cancelled = columns[19];
-                    return new Tuple2<>(new Tuple2<Long, Long>(originAirportId, destAirportId), new Flights());
+                    return new Tuple2<>(new Tuple2<Long, Long>(originAirportId, destAirportId), new Flights(delay, cancelled));
                 }
         );
 
