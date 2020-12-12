@@ -4,6 +4,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import scala.Tuple2;
 
 public class Main {
 
@@ -20,7 +21,10 @@ public class Main {
         JavaRDD<String> flightsDataRDD = sc.textFile(FILE_NAME_2);
 
         JavaPairRDD<Long, String> airportsRDD = airportsDescriptionDataRDD.filter(s -> !s.startsWith("Code")).mapToPair(
-                
+                s -> {
+                    
+                    return new Tuple2<>(new Tuple2<Long, Long>());
+                }
         )
     }
 }
