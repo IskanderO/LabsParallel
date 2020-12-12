@@ -31,6 +31,8 @@ public class Main {
                     resultStr = sb.toString();
                     return new Tuple2<>(airportId, resultStr);
                 }
-        )
+        );
+
+        
     }
 }
