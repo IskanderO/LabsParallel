@@ -1,5 +1,7 @@
 package com.github.IskanderO.LabsParallel.lab1;
 
-public class Flights {
+import java.io.Serializable;
+
+public class Flights implements Serializable {
     
 }
