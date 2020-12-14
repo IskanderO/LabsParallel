@@ -32,5 +32,7 @@ public class Flights implements Serializable {
         if (newFlights.getCancelled() || newDelay > 0.00001) {
 
         }
+        flightsCount++;
+        return this;
     }
 }
