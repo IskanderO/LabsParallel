@@ -6,6 +6,7 @@ public class Flights implements Serializable {
     private Double delay = 0.0;
     private Boolean cancelled = false;
     private Integer counter = 0;
+    private Integer flightsCount = 0;
 
     public Flights(String delay, String cancelled) {
         if (!delay.isEmpty())
