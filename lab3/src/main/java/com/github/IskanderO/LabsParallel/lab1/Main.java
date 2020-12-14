@@ -56,6 +56,8 @@ public class Main {
 
         JavaPairRDD<String, String> result = flightsStatisticRDD.mapToPair(
                 e -> {
+                    String airportName = broadcast.value().get(e._1._1);
+                    String 
                     String name = "";
                     String stat = "";
                     return new Tuple2<>(name, stat);
