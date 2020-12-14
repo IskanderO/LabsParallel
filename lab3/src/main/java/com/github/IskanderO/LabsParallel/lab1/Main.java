@@ -55,7 +55,7 @@ public class Main {
                 e -> {
                     String name = "";
                     String stat = "";
-                    return
+                    return new Tuple2<>(name, stat);
                 }
         );
         airportsDescriptionMap.saveAsTextFile("lab3");
