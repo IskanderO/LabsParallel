@@ -51,6 +51,8 @@ public class Main {
 
         Map<Long, String> airportsDescriptionMap = airportsRDD.collectAsMap();
 
+        final Broadcast<Map<Long, String> broadcast = 
+
         JavaPairRDD<String, String> result = flightsStatisticRDD.mapToPair(
                 e -> {
                     String name = "";
