@@ -34,9 +34,8 @@ public class Flights implements Serializable {
 
     public Flights update(Flights newFlights) {
         Double newDelay = newFlights.getDelay();
-        if (newDelay > delay) {
+        if (newDelay > delay)
             delay = newDelay;
-        }
         if (newFlights.getCancelled() || newDelay > 0.00001)
             this.counter++;
         flightsCount++;
