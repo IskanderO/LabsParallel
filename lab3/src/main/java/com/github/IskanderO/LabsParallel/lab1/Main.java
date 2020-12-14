@@ -53,7 +53,9 @@ public class Main {
 
         JavaPairRDD<String, String> result = flightsStatisticRDD.mapToPair(
                 e -> {
-                    return 
+                    String name = "";
+                    String stat = "";
+                    return
                 }
         );
         airportsDescriptionMap.saveAsTextFile("lab3");
