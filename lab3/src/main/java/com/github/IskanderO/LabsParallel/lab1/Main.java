@@ -58,7 +58,7 @@ public class Main {
                 e -> {
                     String airportName = broadcast.value().get(e._1._1);
                     String destName = broadcast.value().get(e._1._2);
-                    String name = airportName + ;
+                    String name = airportName + " ===> " + destName;
                     String stat = "";
                     return new Tuple2<>(name, stat);
                 }
