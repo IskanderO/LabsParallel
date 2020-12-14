@@ -24,6 +24,14 @@ public class Flights implements Serializable {
         return cancelled;
     }
 
+    public Integer getCounter() {
+        return counter;
+    }
+
+    public Integer getFlightsCount() {
+        return flightsCount;
+    }
+
     public Flights update(Flights newFlights) {
         Double newDelay = newFlights.getDelay();
         if (newDelay > delay) {
