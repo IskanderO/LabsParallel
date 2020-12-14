@@ -24,6 +24,6 @@ public class Flights implements Serializable {
     }
 
     public Flights update(Flights newFlights) {
-        
+
     }
 }
