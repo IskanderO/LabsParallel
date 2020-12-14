@@ -59,7 +59,7 @@ public class Main {
                     String airportName = broadcast.value().get(e._1._1);
                     String destName = broadcast.value().get(e._1._2);
                     String name = airportName + " ===> " + destName;
-                    String stat = " flights: " + e._2.getFlightsCount() + " max delay: " + e._2.getDelay() + " ratio: " + e._2.getCounter();
+                    String stat = " flights: " + e._2.getFlightsCount() + " max delay: " + e._2.getDelay() + " ratio: " + (double) e._2.getCounter() / (double)e._2.getFlightsCount();
                     return new Tuple2<>(name, stat);
                 }
         );
