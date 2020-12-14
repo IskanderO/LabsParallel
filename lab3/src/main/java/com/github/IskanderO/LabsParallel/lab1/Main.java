@@ -36,7 +36,7 @@ public class Main {
                 }
         );
 
-        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsRDD = flightsDataRDD.mapToPair(
+        JavaPairRDD<Tuple2<Long, Long>, Flights> flightsRDD = flightsDataRDD.filter(s -> !s.startsWith("\"YEAR\",\"QUARTER\"")).mapToPair(
                 s -> {
                     String[] columns = s.replaceAll(" ","").split(",");
                     Long originAirportId = Long.parseLong(columns[11].replaceAll("\"",""));
