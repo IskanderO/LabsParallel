@@ -15,6 +15,14 @@ public class Flights implements Serializable {
             this.cancelled = true;
     }
 
+    public Double getDelay() {
+        return delay;
+    }
+
+    public Boolean getCancelled() {
+        return cancelled;
+    }
+
     public Flights update(Flights newFlights) {
 
     }
