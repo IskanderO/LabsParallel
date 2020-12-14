@@ -50,6 +50,8 @@ public class Main {
         JavaPairRDD<Tuple2<Long, Long>, Flights> flightsStatisticRDD =flightsRDD.reduceByKey(Flights::update);
 
         Map<Long, String> airportsDescriptionMap = airportsRDD.collectAsMap();
+
+        
         airportsDescriptionMap.saveAsTextFile("lab3");
     }
 }
