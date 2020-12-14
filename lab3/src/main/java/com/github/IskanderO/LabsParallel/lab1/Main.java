@@ -4,6 +4,7 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.broadcast.Broadcast;
 import scala.Tuple2;
 
 import java.util.Map;
@@ -51,7 +52,7 @@ public class Main {
 
         Map<Long, String> airportsDescriptionMap = airportsRDD.collectAsMap();
 
-        final Broadcast<Map<Long, String> broadcast = sc.broadcast(airportsDescriptionMap);
+        final Broadcast<Map<Long, String>> broadcast = sc.broadcast(airportsDescriptionMap);
 
         JavaPairRDD<String, String> result = flightsStatisticRDD.mapToPair(
                 e -> {
