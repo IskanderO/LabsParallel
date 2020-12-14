@@ -6,6 +6,8 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import scala.Tuple2;
 
+import java.util.Map;
+
 public class Main {
 
     private static final String FILE_NAME_1 = "airports.csv";
@@ -47,6 +49,7 @@ public class Main {
 
         JavaPairRDD<Tuple2<Long, Long>, Flights> flightsStatisticRDD =flightsRDD.reduceByKey(Flights::update);
 
-        flightsStatisticRDD.saveAsTextFile("lab3");
+        Map<Long, String> airportsDescriptionMap = airportsRDD.collectAsMap();
+        airportsDescriptionMap.saveAsTextFile("lab3");
     }
 }
