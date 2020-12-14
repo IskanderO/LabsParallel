@@ -28,6 +28,6 @@ public class Flights implements Serializable {
         if (newDelay > delay) {
             delay = newDelay;
         }
-        if ()
+        if (newFlights.getCancelled() )
     }
 }
