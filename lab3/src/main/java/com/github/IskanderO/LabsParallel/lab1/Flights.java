@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class Flights implements Serializable {
     private Double delay = 0.0;
     private Boolean cancelled = false;
-
+    private Integer counter = 0;
 
     public Flights(String delay, String cancelled) {
         if (!delay.isEmpty())
@@ -29,7 +29,7 @@ public class Flights implements Serializable {
             delay = newDelay;
         }
         if (newFlights.getCancelled() || newDelay > 0.00001) {
-            
+
         }
     }
 }
