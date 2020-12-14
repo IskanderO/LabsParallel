@@ -58,6 +58,6 @@ public class Main {
                     return new Tuple2<>(name, stat);
                 }
         );
-        airportsDescriptionMap.saveAsTextFile("lab3");
+        result.saveAsTextFile("lab3");
     }
 }
